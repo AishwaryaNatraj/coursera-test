@@ -1,0 +1,46 @@
+*{
+	box-sizing: border-box;
+}
+#header-nav {
+	background-color: pink;
+	border-radius: 0;
+	border: 0;
+
+}
+.navbar-brand{
+	padding-top: 25px;
+}
+.nav-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+.navbar-brand h1{
+	font-size: 1.5em;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top:0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+#nav-list {
+	margin-top: 10px;
+}
+#nav-list a{
+	color: blue;
+	text-align: center;
+	font-family: 'Alfa Slab One';
+	font-weight: 100;
+}
+#nav-list a:hover {
+	background-color: orange;
+}
+.navbar-default.navbar-collapse {
+	margin-top: 0px;
+	border: 0px;
+	list-style-type: none;
+}
+@media (min-width: 1200px) {
+	.jumbotron h3{
+	text-align: center; 
+	}
+}
+
